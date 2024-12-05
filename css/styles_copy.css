@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.9); /* Black with opacity */
+}
+
+/* Modal content (the image) */
+.modal-content {
+    margin: 15% auto;
+    display: block;
+    max-width: 90%;
+    max-height: 80%;
+}
+
+/* Close button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* Card styling */
+.card {
+    background-color: red; /* Default placeholder color */
+    aspect-ratio: 3 / 4; /* Maintain 3:4 aspect ratio */
+    width: 100%; /* Full width of its container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Default text color (if added later) */
+    text-align: center; /* Center the text inside the card */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Hover effect */
+.card:hover {
+    background-color: black; /* Change background to black */
+    color: white; /* Ensure text is visible */
+}
+
+/* Profile picture container */
+.profile-picture {
+    width: 300px; /* Adjust the size as needed */
+    height: 300px; /* Maintain the same width and height for a circle */
+    border-radius: 50%; /* Make it circular */
+    overflow: hidden; /* Prevent image overflow */
+    display: flex; /* Flexbox to center the image */
+    align-items: center; /* Vertically center the image */
+    justify-content: center; /* Horizontally center the image */
+}
+
+.profile-picture img {
+    width: 100%; /* Ensure the image fills the container */
+    height: 100%; /* Maintain the container size */
+    object-fit: cover; /* Preserve aspect ratio while covering the area */
+}
+
+/* Material Icons alignment */
+.material-symbols-outlined {
+    vertical-align: middle;
+    line-height: 1px;
+}
+
+.navbar-brand > .material-symbols-outlined {
+    font-size: 40px;
+}
