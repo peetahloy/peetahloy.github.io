@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
+    <title>About Peeta</title>
 
     <!-- Importing Poppins Typeface -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,10 +28,10 @@
         <!-- ALSO MAKE IT ONE SINGLE COLOR, NOT TRANSPARENT -->
         <nav class="navbar navbar-expand-lg navbar-light  sticky-top">
             <div class="container-fluid">
-                <a class="navbar-brand px-5 fw-bold" href="https://peetahloy.github.io/peterahloy.github.io/">
+                <a class="navbar-brand px-5 fw-bold" href="./">Peter Ahloy</a>
                 <!-- Material Icon Added... include icon or nah? Replace with logo? -->
                 <!-- <span class="material-symbols-outlined me-1">Home</span> -->
-                Peter Ahloy
+                <!-- Peter Ahloy -->
                 </a>
                 <button type="button"
                 class="navbar-toggler"
@@ -47,7 +47,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link me-lg-3" href="https://peetahloy.github.io/peterahloy.github.io/">Home</a>
+                                <a class="nav-link me-lg-3" href="./">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link me-lg-3" href="about_me.html">About Me</a>
@@ -68,34 +68,51 @@
         </nav>
         <!-- End Navbar -->
 
-        <!-- About me -->
-        <div class="container mt-5">
-            <h1 class="fw-bold">About Me</h1>
-            <p class="lead">A little bit about myself (working on this)</p>
 
-            <!-- More about me -->
-            <!-- <div class="d-flex justify-content-center align-items-center vh-50 "> -->
-                <section id="about_me" class="">
-                    <!-- I need to work on this project overview -->
-                    <h3 class="mt-1">I'm Peter Ahloy</h3>
-                    <p>I like my name prounced "Pee-ta". </p>
-                    <p>It sounds close to how my island's accent pronounces it.</p>
-                    <p>The island I am from is Trinidad and Tobago.</p>
-                    <p>It was there that I was born and rasied and aspired to be a designer.</p>
-                    <p>Currently I am a senior at the University of Texas at Austin, completing a Bachelors of Fine Arts degree in Design.</p>
+        <!-- Hero -->
+        <header class="hero_box py-4">
+            <div class="container px-2">
+                <div class="row">
+                    <h1 class="project_title text-center">About Me</h1>
+                </div>
+            </div>
+        </header>
+        <!-- End Hero -->
 
-                    <!-- paragraph space -->
-
-                    <h3 class="mt-1">"What kind of design do you do?"</h3>
-                    <p>I am a multifaceted designer. Kinda like a jack of all trades, master of some *wink*. </p>
-                    <p>Some fields of design I primarily focus on is UI/UX, Design Research, and Graphic. </p>
-
-                </section>
+        <main class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <p>Hi, I'm <strong>Peter Ahloy</strong>. I was born and raised in <strong>Trinidad and Tobago</strong>. I’m a designer, currently completing my <strong>BFA in Design</strong> with a <strong>minor in Computer Science</strong> at <strong>The University of Texas at Austin</strong>. I will be graduating May 2025.</p>
+                    <!-- <p>My background bridges traditional design and modern digital tools, allowing me to craft meaningful design systems, compelling visuals, and interactive prototypes. I’m interested in exploring design as a way to empower communities, preserve culture, and enhance everyday experiences.</p> -->
+                </div>
             </div>
 
+            <div class="d-flex justify-content-center py-5">
+                <img src="images/peeta_pic.jpg" class="img-fluid rounded" alt="About image 1" style="max-height: 100vh; width: auto;">
+            </div>
+    
+        </main>
 
-            
-        </div>
+
+        
+        
+    
     </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="text-center">
+            <p>Designed and Developed by Peter Ahloy, 2025</p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- End Footer -->
+    
+    <!-- Bootstrap JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src = "js/scripts.js"></script>
+    
 </body>
 </html>

@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WkRm Sp24</title>
+
+    <!-- Importing Poppins Typeface -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    
+    <!-- Boostrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container-fluid px-0">
+
+        <!-- Navbar -->
+        <!-- TO DO: How to make sticky bar, like it stays in place -->
+        <!-- ALSO MAKE IT ONE SINGLE COLOR, NOT TRANSPARENT -->
+        <nav class="navbar navbar-expand-lg navbar-light  sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand px-5 fw-bold" href="./">Peter Ahloy</a>
+                <!-- Material Icon Added... include icon or nah? Replace with logo? -->
+                <!-- <span class="material-symbols-outlined me-1">Home</span> -->
+                <!-- Peter Ahloy -->
+                </a>
+                <button type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                >
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="container px-3">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="./">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="about_me.html">About Me</a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="#projects">Projects</a>
+                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="https://drive.google.com/file/d/1YXxfMnSEYYQbMLNV5U3vnoXjuB82I1__/view?usp=drive_link" target="_blank">Resume</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+
+        <!-- Hero -->
+        <header class="hero_box py-5">
+            <div class="container px-2">
+                <div class="row">
+                    <h1 class="project_title">WkRm: Enhancing Mobility Around Campus</h1>
+
+
+                </div>
+            </div>
+        </header>
+        <!-- End Hero -->
+        <main>
+            <!-- Summary Info -->
+            <div class="container"">
+                <div class="row">
+                    
+                    <!-- Left Column: Summary -->
+                    <div class="col-md-6">
+                        <h2>Summary</h2>
+                        <p>
+                            During the Spring 2024 semester, a new cohort of students advanced ideas for <strong>improving campus orientation</strong> and <strong>navigation</strong> by designing a pedestrian <strong>wayfinding system</strong>. This new system applied <strong>Navigator Type</strong> research and <strong>Mobility Marker</strong> design concepts to visual affordances in the campus environment, such as campus boundaries, popular destinations, timed routes, cardinal directions, and ground-level information situated in the gaze of heads-down phone users.
+                        </p>
+                        <p><strong>Project Timeline:</strong> 4 Months</p>
+                        <h5>
+                            <a href="#presentation-day" class="text-decoration-underline">
+                                Click to skip to presentation ⤵
+                            </a>
+                        </h5>
+                    </div>
+                    
+                    <!-- Right Column: Role/Teamwork -->
+                    <div class="col-md-6">
+                        <h2>My Role</h2>
+                        <p><strong>Position:</strong> Team Member</p>
+                        <p><strong>Responsibilities:</strong> I helped <strong>research</strong> the student body regarding wayfinding around the UT Austin campus. Collectively as a team <strong>ideate ideas</strong> and <strong>prototype</strong> them. Conduct <strong>user testing</strong> and apply insights.
+                            I focused primarily on <strong>Cardinal Directions</strong>.
+                        </p>
+                        <p><strong>Teamwork:</strong> Collaborated with 4 team members [Abigail D, Abraham N, Nidhi P, Rumi S.], guided by Jon Freach.</p>
+                        <p><strong>Stakeholder:</strong> Austin Transit Partnership</p>
+                    </div>
+
+                    
+                </div>
+
+                <!-- Describing the issue -->
+
+                <div class="row py-5">
+
+                    <div class="col-md-6">
+                        <h2 class="py-2">Problem Description</h2>
+                        <p><strong>Students struggle to find routes and mobility modes</strong> that work for them and are always <strong>seeking to optimize their journeys.</strong> 
+                            There is a <strong>need</strong> for visual markers and <strong>physical affordances that, inform, signal, and support mobility on and around campus</strong>.
+                        </p>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h2 class="py-2">End Goal</h2>
+                        <p> <strong>Enhance students' mobility around campus</strong> in preparation for the future installation of a <strong> light rail in Austin</strong>.
+                            <a href="https://www.atptx.org/about/light-rail/" target="_blank" rel="noopener noreferrer">More info here</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Process Info -->
+
+                <h1 class="text-center">Process</h1>
+
+                <div class="container py-5">
+                    <div class="row">
+                        <!-- Left Column: Process Explanation -->
+                        <div class="col-md-6">
+                            <!-- Familiarize -->
+                            <div class="mb-4">
+                                <h4>Familiarize</h4>
+                                <p>
+                                    We began by <strong>familiarizing ourselves with the previous semester’s cohort work</strong>, gaining context on their research and project direction. 
+                                    Their focus centered on <strong>how UT Austin students navigate transportation on and around campus</strong>. 
+                                    You can explore their research 
+                                    <a href="https://www.mvmtbywkrm.com/research" target="_blank" rel="noopener noreferrer">here</a>.
+                                </p>
+                            </div>
+                
+                            <!-- Understand -->
+                            <div class="mb-4">
+                                <h4>Understanding Light Rail Implementation</h4>
+                                <p>
+                                    We then sought to <strong>develop a foundational understanding of light rail systems</strong>: how they function, how users interact with them, and the experience they provide.
+                                    Our exploration included existing systems and the specific context of Austin’s upcoming implementation.
+                                </p>
+                                <ul>
+                                    <li><a href="https://www.youtube.com/watch?v=XbOxnT698Yg" target="_blank" rel="noopener noreferrer">Riding the Minneapolis Light Rail</a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=_T8TIyT79PA" target="_blank" rel="noopener noreferrer">Portland TriMet MAX Light Rail</a></li>
+                                    <li><a href="https://www.projectconnect.com/" target="_blank" rel="noopener noreferrer">Project Connect</a></li>
+                                    <li><a href="https://www.atptx.org/" target="_blank" rel="noopener noreferrer">Austin Transit Partnership</a></li>
+                                </ul>
+                            </div>
+                
+                            <!-- Reinvent -->
+                            <div>
+                                <h4>Reinvent</h4>
+                                <p>
+                                    To create lasting impact, we set out to <strong>build upon the research from last semester while expanding our own direction</strong>. 
+                                    Our goal became clear: <strong>enhance student mobility on campus</strong> by integrating past insights with our new ideation.
+                                </p>
+                            </div>
+                        </div>
+                
+                        <!-- Right Column: Image -->
+                        <div class="col-md-6 d-flex justify-content-center align-items-center">
+                            <img src="/images/wkrm/ideation_group.jpg" alt="Team Ideation Process" class="img-fluid rounded shadow">
+                        </div>
+                    </div>
+                </div>
+                
+
+
+                <div class="container py-5">
+                    <h2 class="text-center mb-5">Phase One: Observation</h2>
+                
+                    <div class="row">
+                        <!-- Left Column: Description -->
+                        <div class="col-md-6">
+                            <h4>Ethnographic Study</h4>
+                            <p>
+                                During this phase, we each visited the three identified <strong>Mobility Waystation</strong> locations on campus to observe movement and behavior in real-time.
+                            </p>
+                            <p>
+                                The primary <strong>Mobility Waystation</strong> locations observed in Austin, Texas:
+                            </p>
+                            <ul>
+                                <li><strong>24th & Guadalupe</strong></li>
+                                <li><strong>23rd Street Square</strong></li>
+                                <li><strong>21st & Guadalupe</strong></li>
+                            </ul>
+                            <p>
+                                We conducted <strong>ethnographic research</strong> using a framework that captured the following dimensions: 
+                                <em>Space, Actor, Objects, Interactions, Flow, Needs, and Feelings</em>.
+                            </p>
+                        </div>
+                
+                        <!-- Right Column: Key Findings -->
+                        <div class="col-md-6">
+                            <h4>Primary Key Findings</h4>
+                            <ul>
+                                <li>Students often <strong>look at the ground level</strong> when navigating their route.</li>
+                                <li>The majority of students <strong>focus on their phones</strong> while walking or waiting to cross intersections.</li>
+                                <li>At crosswalks and stop signs, <strong>attention remains downward</strong>, away from environmental cues.</li>
+                                <li><strong>Micromobility clutter</strong> like e-scooters blocks sidewalks and disrupts pedestrian flow.</li>
+                                <li><strong>Temporal variations</strong>: Rush hours show significantly different behavior patterns than mid-day or evening.</li>
+                                <li><strong>Low social interaction</strong>: People tend to isolate themselves in public space, specifically when waiting, limiting community engagement.</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                
+                    <!-- Image Row -->
+                    <div class="row mt-5">
+                        <div class="col-md-3 mb-3">
+                            <img src="/images/wkrm/observation_1.jpeg" alt="Observation 1" class="img-fluid rounded shadow">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <img src="/images/wkrm/observation_2.jpeg" alt="Observation 2" class="img-fluid rounded shadow">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <img src="/images/wkrm/observation_3.jpeg" alt="Observation 3" class="img-fluid rounded shadow">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <img src="/images/wkrm/observation_4.jpeg" alt="Observation 4" class="img-fluid rounded shadow">
+                        </div>
+                    </div>
+                </div>
+                
+
+
+                <div class="container py-5">
+                    <h2 class="text-center mb-5">Phase Two: Ideation</h2>
+                
+                    <div class="row">
+                        <!-- Left Column: Design Criteria -->
+                        <div class="col-md-6">
+                            <h4>Design Criteria</h4>
+                            <p>
+                                As a team, we collaboratively established our core design criteria. These acted as 
+                                <strong>guiding principles</strong> for developing thoughtful and impactful solutions.
+                            </p>
+                
+                            <h5>Inform</h5>
+                            <p>Our design must communicate accurate and timely information effectively.</p>
+                
+                            <h5>Compel</h5>
+                            <p>Our design should encourage students to explore and adopt new forms of mobility.</p>
+                
+                            <h5>Include</h5>
+                            <p>Accessibility is key—our design must consider and accommodate a broad range of student needs.</p>
+                
+                            <h5>Engage</h5>
+                            <p>Interaction is central—our design should foster meaningful connections between people, place, and movement.</p>
+                
+                            <h5>Integrate</h5>
+                            <p>The solution must harmonize multiple mobility modes seamlessly across campus spaces.</p>
+                        </div>
+                
+                        <!-- Right Column: Ideation Image -->
+                        <div class="col-md-6 d-flex justify-content-center align-items-center">
+                            <img src="/images/wkrm/ideation_team.jpeg" alt="Group Ideation" class="img-fluid rounded shadow">
+                        </div>
+                    </div>
+                
+                    <!-- Formulating Ideas -->
+                    <div class="row mt-5">
+                        <div class="col-md-6">
+                            <h4>Formulating Ideas</h4>
+                            <p>
+                                Each team member created <strong>quick concept sketches</strong> to explore potential directions. 
+                                We then critiqued and discussed the sketches together, identifying the strongest concepts that both aligned with our 
+                                <strong>design criteria</strong> and represented <strong>feasible, real-world solutions</strong>.
+                            </p>
+                        </div>
+                    </div>
+                
+                    <!-- Concept Sketches Grid -->
+                    <div class="row py-4">
+                        <div class="col-md-3 mb-3">
+                            <img src="/images/wkrm/concept_sketch_1.jpeg" alt="Sketch 1" class="img-fluid rounded shadow">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <img src="/images/wkrm/concept_sketch_2.jpeg" alt="Sketch 2" class="img-fluid rounded shadow">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <img src="/images/wkrm/concept_sketch_3.jpeg" alt="Sketch 3" class="img-fluid rounded shadow">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <img src="/images/wkrm/concept_sketch_4.jpeg" alt="Sketch 4" class="img-fluid rounded shadow">
+                        </div>
+                    </div>
+                </div>
+                
+                
+                    <!-- <div class="row">
+
+                        <div class="col-md-6">
+                            <img src="/images/wkrm/concept_sketch_5.jpeg" alt="Sketches 2" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="/images/wkrm/concept_sketch_6.jpeg" alt="Sketches 3" class="img-fluid">
+                        </div>
+                    
+                            
+                        
+                    </div> -->
+
+                
+
+
+                    <div class="container py-5">
+                        <h2 class="text-center mb-5">Phase Two: Categorizing Our Concepts</h2>
+                    
+                        <div class="row align-items-center">
+                            <!-- Left Column: Text Content -->
+                            <div class="col-md-6">
+                                <h4>The Three Mobility Enhancers (Categories)</h4>
+                                <p>
+                                    From our initial concept sketches, we identified and organized our mobility solutions into <strong>three primary categories</strong>:
+                                </p>
+                    
+                                <h5>Directional Sign</h5>
+                                <p>Eye-level signage that helps guide users throughout campus in real-time.</p>
+                    
+                                <h5>Area Map</h5>
+                                <p>A map that highlights major campus locations and key points of interest.</p>
+                    
+                                <h5>Ground-Level Directions</h5>
+                                <p>Wayfinding tools and directional cues placed below eye level, such as floor decals and arrows.</p>
+                    
+                                <p>
+                                    This structure allowed us to <strong>divide and conquer</strong>, splitting into smaller focus teams. Even while working independently, we continuously <strong>shared feedback</strong> and <strong>collaborated</strong> to align ideas and maintain cohesion.
+                                </p>
+                            </div>
+                    
+                            <!-- Right Column: Image -->
+                            <div class="col-md-6 d-flex justify-content-center">
+                                <img src="/images/wkrm/categories_signage.png" alt="Categories Diagram" class="img-fluid rounded shadow">
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="container py-5">
+                        <h2 class="text-center mb-5">My Focus: Ground-Level Signage</h2>
+                    
+                        <!-- Description Section -->
+                        <div class="row align-items-center mb-4">
+                            <div class="col-md-6">
+                                <h4>Wayfinding from the Ground Up</h4>
+                                <p>
+                                    I collaborated with Abraham Neiswinter to develop concepts for <strong>ground-level signage</strong>. Our focus was on wayfinding tools that guide users from the floor—specifically through the use of <strong>cardinal directions, arrows, and street names</strong>.
+                                </p>
+                                <p>
+                                    This approach enhances accessibility and usability, especially for people who tend to look down while navigating, whether due to mobile phone use or visual comfort.
+                                </p>
+                            </div>
+                        </div>
+                    
+                        <!-- Concept Sketches -->
+                        <div class="row mb-5">
+                            <div class="col-md-6 mb-3">
+                                <img src="/images/wkrm/concept_sketch_5.jpeg" alt="Sketch 1" class="img-fluid rounded shadow">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <img src="/images/wkrm/concept_sketch_6.jpeg" alt="Sketch 2" class="img-fluid rounded shadow">
+                            </div>
+                        </div>
+                    
+                        <!-- Ground Signage Images -->
+                        <h4 class="mb-4">Ground Signage Concepts</h4>
+                        <div class="row mb-5">
+                            <div class="col-md-3 mb-3">
+                                <img src="/images/wkrm/ground_signage1.png" alt="Ground Signage 1" class="img-fluid rounded shadow">
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <img src="/images/wkrm/ground_signage2.png" alt="Ground Signage 2" class="img-fluid rounded shadow">
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <img src="/images/wkrm/ground_signage3.png" alt="Ground Signage 3" class="img-fluid rounded shadow">
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <img src="/images/wkrm/ground_signage4.png" alt="Ground Signage 4" class="img-fluid rounded shadow">
+                            </div>
+                        </div>
+                    
+                        <!-- Digital Mockups -->
+                        <h4 class="mb-4">Digital Mockups</h4>
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <img src="/images/wkrm/ground_digital_mockup1.png" alt="Digital Mockup 1" class="img-fluid rounded shadow">
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <img src="/images/wkrm/ground_digital_mockup2.png" alt="Digital Mockup 2" class="img-fluid rounded shadow">
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <img src="/images/wkrm/ground_digital_mockup3.png" alt="Digital Mockup 3" class="img-fluid rounded shadow">
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <img src="/images/wkrm/ground_digital_mockup4.png" alt="Digital Mockup 4" class="img-fluid rounded shadow">
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    
+
+                    <!-- Prototyping -->
+                    <div class="container py-5">
+                        <!-- Section Title -->
+                        <h2 class="text-center mb-5">Phase Three: Prototyping</h2>
+                    
+                        <!-- Description -->
+                        <div class="row align-items-center mb-4">
+                            <div class="col-md-6">
+                                <p>
+                                    In this phase of the process, we <strong>translated our sketches into a low-fidelity prototype</strong>. We printed our designs at actual scale and mounted them on cardboard for testing.
+                                </p>
+                                <p>
+                                    The goal was to create something tangible we could place in the environment to <strong>evaluate its usability</strong> and begin answering upcoming research questions.
+                                </p>
+                            </div>
+                        </div>
+                    
+                        <!-- Prototype Images -->
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <img src="/images/wkrm/cardinal_directions.jpg" alt="Cardinal Directions Prototype" class="img-fluid rounded shadow">
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <img src="/images/wkrm/street_names.jpg" alt="Street Names Prototype" class="img-fluid rounded shadow">
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <img src="/images/wkrm/higher_fidelity.jpg" alt="Higher Fidelity Prototype 1" class="img-fluid rounded shadow">
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <img src="/images/wkrm/higher_fidelity_2.jpg" alt="Higher Fidelity Prototype 2" class="img-fluid rounded shadow">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <img src="/images/wkrm/low_fid_proto1.jpeg" alt="Cardinal Directions Prototype" class="img-fluid rounded shadow">
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <img src="/images/wkrm/low_fid_proto2.jpeg" alt="Street Names Prototype" class="img-fluid rounded shadow">
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <img src="/images/wkrm/low_fid_proto3.jpeg" alt="Higher Fidelity Prototype 1" class="img-fluid rounded shadow">
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+                    <div class="container py-5">
+                        <!-- Section Title -->
+                        <h2 class="text-center mb-5">Phase Four: Testing</h2>
+                    
+                        <div class="row align-items-start">
+                            <!-- Left Column: Research Questions -->
+                            <div class="col-md-6 mb-4">
+                                <h4>Research Questions: Ground-Level Signage</h4>
+                                <p>
+                                    Abraham Neiswinter and I conducted user testing with our prototypes, aiming to evaluate their effectiveness through the following research questions:
+                                </p>
+                    
+                                <div class="mb-3">
+                                    <h5>1. Do you know what direction you're heading?</h5>
+                                    <p>
+                                        We asked participants if they could identify the <strong>cardinal direction</strong> they were heading in to test spatial awareness.
+                                    </p>
+                                </div>
+                    
+                                <div class="mb-3">
+                                    <h5>2. What street are you on?</h5>
+                                    <p>
+                                        This helped us determine whether our signage effectively communicated <strong>street names</strong>.
+                                    </p>
+                                </div>
+                    
+                                <div class="mb-3">
+                                    <h5>3. Did you notice the signs on the ground? Why or why not?</h5>
+                                    <p>
+                                        After students crossed the street, we asked if they noticed the <strong>ground-level signage</strong> behind them and what made it noticeable (or not).
+                                    </p>
+                                </div>
+                    
+                                <div class="mb-3">
+                                    <h5>4. What caught your attention first?</h5>
+                                    <p>
+                                        We wanted to learn whether participants noticed the <strong>cardinal direction indicators</strong> or <strong>street names</strong> first.
+                                    </p>
+                                </div>
+                    
+                                <div class="mb-3">
+                                    <h5>5. What do you think the sign was for?</h5>
+                                    <p>
+                                        This question helped assess whether the signage’s <strong>intended purpose</strong>—to orient users—was clear.
+                                    </p>
+                                </div>
+                            </div>
+                    
+                            <!-- Right Column: Main Image -->
+                            <div class="col-md-6 mb-4 d-flex justify-content-center align-items-center">
+                                <img src="images/wkrm/prototyping_me.JPG" alt="User Testing Observation" 
+                                class="img-fluid rounded shadow"
+                                style="max-height: 600px;">
+
+                            </div>
+                        </div>
+                    
+                        <!-- Additional User Testing Images -->
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <img src="/images/wkrm/user_testing.JPG" alt="User Testing 1" class="img-fluid rounded shadow">
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <img src="/images/wkrm/user_testing_2.JPG" alt="User Testing 2" class="img-fluid rounded shadow">
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <img src="/images/wkrm/user_testing_3.JPG" alt="User Testing 3" class="img-fluid rounded shadow">
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <img src="/images/wkrm/ground_spray.jpeg" alt="User Testing 3" class="img-fluid rounded shadow">
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <!-- FINDINGS -->
+                    <!-- FINDINGS -->
+                    <div class="py-5 text-center">
+                        <h2>Results/Findings</h2>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <p>
+                                Our testing showed that the <strong>ground-level signage successfully informed students</strong> about the direction they were heading and the street they were on. Both the <strong>cardinal directions</strong> and <strong>street names</strong> were interpreted easily and effectively.
+                            </p>
+                            <p>
+                                The <strong>color choice</strong>—especially the use of light blue—significantly increased visibility and noticeability. Many users mentioned the color helped the signs stand out against the concrete and surrounding environment.
+                            </p>
+                            <p>
+                                The <strong>material and texture</strong> of the signage also played a role in user interaction. Because the signs were slightly raised or visually distinct, several students reported avoiding stepping on them—showing that the ground elements were indeed noticed.
+                            </p>
+                            <p>
+                                However, <strong>positioning influenced effectiveness</strong>. In some instances, the signage was missed due to foot traffic or because people were rushing. During peak hours, crowded sidewalks often obstructed the view of the signage.
+                            </p>
+                            <p>
+                                Interestingly, <strong>prior knowledge of the area reduced reliance</strong> on signage. Some students didn’t notice or engage with the signs simply because they already knew where they were going.
+                            </p>
+                            <p>
+                                A few participants admitted they didn’t notice the signs at all—often due to distractions, urgency, or simply looking at their phones. This highlights an ongoing challenge in catching attention in busy environments.
+                            </p>
+                            <p>
+                                Overall, our findings support the use of <strong>ground-level signage as a helpful, accessible, and intuitive wayfinding tool</strong>, while also revealing areas for improvement in placement and visibility.
+                            </p>
+                        </div>
+                    </div>
+
+  
+                    <!-- Other Testing -->
+                    <!-- OTHER TESTING -->
+                    <div class="py-5 text-center">
+                        <h4>Additional Testing</h4>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <p>
+                                In addition to our primary testing, we assisted with several tests conducted by other teams. These included both physical prototypes and public engagement exercises.
+                            </p>
+                            <p>
+                                Vertical directional signage was placed in public areas to observe interaction and gather feedback. The public responded positively—many noted that the signage <strong>clearly communicated direction</strong> and was easy to interpret.
+                            </p>
+                            <p>
+                                We also laid out multiple <strong>typographic and signage variations</strong> for public review. This helped us gauge which designs were most effective in terms of visibility, clarity, and overall aesthetic.
+                            </p>
+                            <p>
+                                These tests offered valuable insight and reinforced our direction for design decisions moving forward.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-4 mb-3">
+                            <img src="/images/wkrm/directional_sign_question.jpg" alt="Directional Sign Feedback" class="img-fluid rounded shadow">
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <img src="/images/wkrm/directional_sign_test.jpeg" alt="Directional Sign in Public Space" class="img-fluid rounded shadow">
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <img src="/images/wkrm/typography_questions.jpeg" alt="Typography Feedback Session" class="img-fluid rounded shadow">
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- PRESENTATION DAY -->
+                    <section class="py-5" id="presentation-day">
+                        <h2 class="text-center mb-4">Final Presentation</h2>
+                    
+                        <!-- PDF PRESENTATION SLIDES -->
+                        <div class="text-center mb-5">
+                        <h5 class="mb-3">Scroll to View</h5>
+                        
+                        <iframe 
+                            src="/images/wkrm/wkrm_sp24_presentation.pdf#toolbar=0&navpanes=0&scrollbar=0" 
+                            width="90%" 
+                            height="600px" 
+                            style="border: 1px solid #ccc; border-radius: 8px;"
+                            allowfullscreen>
+                        </iframe>
+                    
+                        <!-- Optional Download Button -->
+                        <div class="mt-3">
+                            <a href="/images/wkrm/wkrm_sp24_presentation.pdf" class="btn btn-outline-primary" target="_blank">
+                            Download PDF
+                            </a>
+                        </div>
+                        </div>
+                    
+                        <!-- REFLECTION SECTION -->
+                        <div class="pt-4">
+                        <h2 class="text-center mb-4">Presentation Day Reflection</h2>
+                    
+                        <div class="row align-items-center">
+                            <!-- TEXT LEFT -->
+                            <div class="col-lg-6">
+                            <p>
+                                We had the opportunity to <a href="https://www.mvmtbywkrm.com/concepts-1" target="_blank" rel="noopener noreferrer">present our research</a> and proposed <strong>signage solutions to the University of Texas at Austin Campus Planning</strong> team—made up of architects, engineers, and urban designers. Their feedback was both constructive and encouraging, reinforcing the importance of pedestrian-first wayfinding.
+                            </p>
+                    
+                            <p>
+                                Our conversation touched on the materials, placement, and practical applications of our ground-level signage. One of the key moments was when the team acknowledged a current gap:
+                            </p>
+                    
+                            <blockquote class="blockquote ps-3">
+                                “<i>The signs we have at traffic lights are for cars—nothing for pedestrians. These are for pedestrians.</i>”
+                            </blockquote>
+                    
+                            <p>
+                                They also provided helpful guidance on map integration and directional placement. Even though this kind of work has been explored before, our approach aligned with professional best practices—<strong>a sign we’re on the right path</strong>.
+                            </p>
+                    
+                            <p>
+                                Overall, the opportunity to present and receive feedback from professionals was both validating and deeply appreciated.
+                            </p>
+                            </div>
+                    
+                            <!-- IMAGES RIGHT -->
+                            <div class="col-lg-6">
+                            <div class="mb-3">
+                                <img src="/images/wkrm/presentation_day.001.jpeg" alt="Presentation Slide 1" class="img-fluid rounded shadow w-100">
+                            </div>
+                            <div>
+                                <img src="/images/wkrm/presentation_day.002.jpeg" alt="Presentation Slide 2" class="img-fluid rounded shadow w-100">
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </section>
+  
+  
+
+
+
+                    <!-- KEY TAKEAWAYS -->
+                    <div class="py-5">
+                        <h2 class="text-center">Key Takeaways</h2>
+                    </div>
+
+                    <div class="row">
+                        <!-- TEXT LEFT COLUMN -->
+                        <div class="col-md-6">
+
+                            <h4 class="mb-3">Project Takeaways</h4>
+                            <p><strong>Collaboration is essential</strong> – Effective teamwork enhances problem-solving, strengthens ideas, and ensures a well-rounded approach.</p>
+
+                            <p><strong>The design process is iterative</strong> – Ideation and prototyping aren't linear. Iteration and ongoing refinement lead to stronger, more thoughtful outcomes.</p>
+
+                            <p><strong>Clarity and accuracy matter</strong> – Consistency in presentation is critical. Stakeholders notice discrepancies, so attention to detail is a must.</p>
+
+                            <p><strong>Seek feedback regularly</strong> – Constructive criticism and peer insights are crucial to improving your work at every stage.</p>
+
+                            <p><strong>Stakeholder engagement is key</strong> – Regular check-ins help align expectations and allow room for course correction before it's too late.</p>
+
+                            <p><strong>User-centered design is crucial</strong> – The needs of real users should drive design decisions. Design doesn’t exist in a vacuum.</p>
+
+                            <p><strong>Flexibility leads to innovation</strong> – Be open to evolving your ideas based on feedback, especially when testing reveals new perspectives.</p>
+
+                            <p><strong>Presentation skills are vital</strong> – Effectively communicating your work ensures it is understood, respected, and considered for real-world application.</p>
+
+                            <p><strong>Designing for everyone is challenging</strong> – A solution that works for one group may not work for another. True accessibility means aiming to include the widest possible audience.</p>
+
+                            <p><strong>Wayfinding systems require time and care</strong> – Designing new navigation tools takes extensive prototyping, testing, and revision.</p>
+                        </div>
+
+                        <!-- TEXT RIGHT COLUMN -->
+                        <div class="col-md-6">
+
+                            <h4 class="mb-3">Recommendations</h4>
+                            <p><strong>Expand accessibility research</strong> – Include considerations for users with visual, auditory, and mobility impairments to inform more inclusive solutions.</p>
+
+                            <p><strong>Explore textures and materials</strong> – Investigate the tactile and functional aspects of signage, especially for ground-level installations.</p>
+
+                            <p><strong>Assess real-world application</strong> – Consider durability, maintenance, and environmental factors in selecting materials and signage placement.</p>
+
+                            <p><strong>Study campus "districts"</strong> – Break down the campus into key zones or “districts” to guide signage strategy and improve spatial clarity in maps.</p>
+
+                            <p><strong>Conduct more prototype testing</strong> – Run additional field tests focused specifically on accessibility and gather input from users with different needs.</p>
+
+                            <p><strong>Iterate designs based on feedback</strong> – Continue refining prototypes in response to both public feedback and expert critique.</p>
+                        </div>
+                    </div>
+
+
+                    <!-- Opportunities for Growth -->
+                    <div class="py-5">
+                        <h2 class="text-center">Opportunities for Growth</h2>
+                    </div>
+
+                    <div class="row align-items-center">
+                        <!-- TEXT COLUMN -->
+                        <div class="col-md-6">
+                            <p><strong>Expand ideation and experimentation</strong> – Don’t settle too early. Explore more concepts through sketches, prototypes, and alternate approaches before narrowing down solutions.</p>
+
+                            <p><strong>Enhance stakeholder collaboration</strong> – Involve stakeholders earlier to gain insights that can influence direction and clarify expectations from the start.</p>
+
+                            <p><strong>Improve testing and validation</strong> – Conduct more rounds of user testing to refine details, validate assumptions, and ensure the design is truly effective.</p>
+
+                            <p><strong>Strengthen documentation</strong> – Maintain consistent records of your research, iterations, and critiques. This improves transparency and informs future decisions.</p>
+
+                            <p><strong>Refine time management</strong> – Strive for a better balance between speed and depth. Being intentional with your time leads to stronger outcomes.</p>
+
+                            <p><strong>Develop creative resilience</strong> – Not every idea will work. Embrace setbacks as part of the process and use them to grow your thinking and adapt your strategy.</p>
+
+                            <p><strong>Think long-term</strong> – Consider the lifespan of your design decisions and how they integrate with broader campus initiatives or infrastructure plans.</p>
+                        </div>
+
+                        <!-- IMAGE COLUMN -->
+                        <div class="col-md-6">
+                            <img src="/images/wkrm/ideation.JPG" alt="Ideation process with sketches and notes" class="img-fluid rounded shadow">
+                        </div>
+                    </div>
+                    
+
+                    <div class="row py-5 justify-content-center">
+                        <div class="col-md-6">
+                            <h2 class="text-center">Outcomes – WkRM Wayfinding & Ground Signage</h2>
+                            <div class="py-2">
+                                <p><strong>User & Stakeholder Validation</strong></p>
+                                <ul>
+                                    <li><strong>Direct Client Feedback:</strong> Presented mockups and concepts to stakeholders and received input that informed revisions and design priorities.</li>
+                                    <li><strong>Alignment with User Needs:</strong> Refined designs based on pain points and navigation patterns identified during early testing and validation sessions.</li>
+                                </ul>
+                    
+                                <p><strong>Design & Communication Process</strong></p>
+                                <ul>
+                                    <li><strong>Collaborative Ideation:</strong> Worked within a group to brainstorm, sketch, and develop signage systems based on real-world context and user flow.</li>
+                                    <li><strong>Visual Hierarchy & Legibility:</strong> Prioritized clarity and accessibility in typography, iconography, and layout decisions tailored for outdoor use.</li>
+                                    <li><strong>Prototyping & Presentation:</strong> Developed presentation materials and mockups that communicated how the signage would work within the space.</li>
+                                </ul>
+                    
+                                <p><strong>Professional Development</strong></p>
+                                <ul>
+                                    <li><strong>Client-Facing Experience:</strong> Gained confidence presenting ideas and incorporating professional feedback in a fast-paced team environment.</li>
+                                    <li><strong>Iterative Design Thinking:</strong> Demonstrated flexibility and openness to redesign based on constraints and external input.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="text-center">
+            <p>Designed and Developed by Peter Ahloy, 2025</p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- End Footer -->
+    
+    <!-- Bootstrap JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src = "js/scripts.js"></script>
+</body>
+</html>

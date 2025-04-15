@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wealth Wizard</title>
+
+    <!-- Importing Poppins Typeface -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    
+    <!-- Boostrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container-fluid px-0">
+
+        <!-- Navbar -->
+        <!-- TO DO: How to make sticky bar, like it stays in place -->
+        <!-- ALSO MAKE IT ONE SINGLE COLOR, NOT TRANSPARENT -->
+        <nav class="navbar navbar-expand-lg navbar-light  sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand px-5 fw-bold" href="./">Peter Ahloy</a>
+                <!-- Material Icon Added... include icon or nah? Replace with logo? -->
+                <!-- <span class="material-symbols-outlined me-1">Home</span> -->
+                <!-- Peter Ahloy -->
+                </a>
+                <button type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                >
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="container px-3">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="./">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="about_me.html">About Me</a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="#projects">Projects</a>
+                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="https://drive.google.com/file/d/1YXxfMnSEYYQbMLNV5U3vnoXjuB82I1__/view?usp=drive_link" target="_blank">Resume</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+
+        <!-- Hero -->
+        <header class="hero_box py-5">
+            <div class="container px-2">
+                <div class="row">
+                    <h1 class="project_title">Wealth Wizard - An App to Increase Financial Literacy </h1>
+
+
+                </div>
+            </div>
+        </header>
+        <!-- End Hero -->
+        <main>
+            <!-- Summary Info -->
+            <div class="container"">
+                <div class="row">
+                    
+                    <!-- Left Column: Summary -->
+                    <div class="col-md-6">
+                        <h2>Summary</h2>
+                        <p>
+                            In our Digital Prototyping we, as a selected group, created a high-fidelity digital prototype on our assigned prompt. 
+                            Our solution was <strong>a phone application that seeks to improve a user's financial literacy</strong>.
+                        </p>
+                        <p><strong>Course:</strong> ITD 150: Digital Protoyping at The University of Texas at Austin</p>
+                        <p><strong>Project Timeline:</strong> 5 Weeks</p>
+                        
+                        <!-- <h5>
+                            <a href="https://www.figma.com/proto/608h3RO1zhedgeyVmVYRnI/ITD---High-Fidelity?page-id=0%3A1&node-id=142-1341&starting-point-node-id=142%3A1341&mode=design&t=Y89cCZi1gfDxKaXP-1" target="_blank" rel="noopener noreferrer">
+                                Click Here for the Prototype
+                            </a>
+                        </h5> -->
+
+                    </div>
+                    
+                    <!-- Right Column: Role/Teamwork -->
+                    <div class="col-md-6">
+                        <h2>My Role</h2>
+                        <p><strong>Position:</strong> Team Member</p>
+                        <p><strong>Responsibilities:</strong> Team member that worked with others to create a solution to the problem provided. Helped with conceptualization, ideation, and implementation. 
+                        </p>
+                        <p><strong>Teamwork:</strong> Collaborated with 4 team members [Parth Ghawghawe, Hui Feng, Truc Tran, Grace Sajjarotjana, guided by Professor Joe Meersman.</p>
+                        <!-- <p><strong>Stakeholder:</strong> Austin Transit Partnership</p> -->
+                    </div>
+
+                    
+                </div>
+
+                <!-- Describing the issue -->
+
+                <div class="row py-5">
+
+                    <div class="col-md-6">
+                        <h2 class="py-2">The Prompt</h2>
+                        <p> There are people who are in <strong>need of public services but do not know where and how to access them</strong>. Many people in need have cell phones and access to technology at libraries and other public facilities.
+                            What can <strong>keep them aware of services, gather information, and make informed decisions</strong> about obtaining assistance? How will they understand how many service providers there are and what associated information is required to gain assistance?
+                            Your <strong>task is to design an experience</strong> that <strong>makes it easier for people needing services to obtain them</strong>. Your solution could be a service, website, mobile application, chatbot, etc.
+                            Don’t worry about the underlying technology, focus on the experience that a user has.
+                            
+                        </p>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h2 class="py-2">End Goal</h2>
+                        <p>Design an accessible application that offers financial advising, thus improving one's financial literacy.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Process Info -->
+
+                <h1 class="text-center">Process</h1>
+                
+                <div class="row py-5">
+                    <!-- Left Column: Concept -->
+                    <div class="col-md-6">
+                        <h4>Refining the Concept</h4>
+                        <p>In the early stages of the project, our team generated a wide range of ideas in response to the challenge. We carefully evaluated each concept against the prompt, prioritizing solutions that would be accessible, practical, and empathetic to users navigating complex public services.</p>
+                
+                        <p>One idea stood out in particular—addressing financial literacy. As college students living on tight budgets, we resonated with the struggle of understanding how to manage money, especially when access to resources isn’t always clear or centralized. We recognized that this gap in financial knowledge mirrors the broader issue faced by individuals seeking public services: a lack of accessible, digestible, and actionable information.</p>
+                
+                        <p>With that insight, we chose to pursue a solution that empowers users to better understand their finances, identify helpful resources, and ultimately make informed decisions. This direction not only aligned with our personal experiences but also fulfilled the core goals of the design brief.</p>
+                    </div>
+                
+                    <!-- Right Column: Insights and App Structure -->
+                    <div class="col-md-6">
+                        <h5 class="mb-3">Prioritized Pain Points</h5>
+                        <ul>
+                            <li>Feeling inconclusive or unfulfilled after reading financial information</li>
+                            <li>Too many options creating decision fatigue and uncertainty</li>
+                            <li>Uncertainty about what to search for or where to begin</li>
+                        </ul>
+                
+                        <h5 class="mt-4 mb-3">How the App Responds</h5>
+                        <ul>
+                            <li>Asks questions about financial status and goals to build user confidence</li>
+                            <li>Provides tailored suggestions to reduce decision overwhelm</li>
+                            <li>Offers additional information on demand to satisfy curiosity and depth-seeking</li>
+                        </ul>
+                
+                        <h5 class="mt-4 mb-3">Planned App Pages</h5>
+                        <ul>
+                            <li><strong>Welcome Page:</strong> Introductory experience and app overview for new users</li>
+                            <li><strong>Profile Page:</strong> User enters financial info and preferences</li>
+                            <li><strong>Home Page:</strong> Main dashboard for navigation and content overview</li>
+                            <li><strong>Chat Page:</strong> Users can ask personalized financial questions</li>
+                            <li><strong>Learning Page:</strong> Curated educational content tailored to user needs</li>
+                            <li><strong>Learning Journey Overview:</strong> See progress and what's next to explore</li>
+                            <li><strong>Action Page:</strong> Suggestions for what users can do with their budget/savings</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                
+
+                <div class="row py-5">
+                    <!-- Text Content -->
+                    <div class="col-md-12 col-lg-6 mx-auto">
+                        <h4 class="text-center">Journey Map</h4>
+                        <p>Our team began by outlining what a user might experience when attempting to find financial information—especially when under pressure to make responsible decisions with their income. </p>
+                        <p>In this scenario, the user has just received their paycheck and wants to make a smart, informed decision about how to handle it. This journey allowed us to empathize with the confusion, uncertainty, and overload of options that can arise during this process.</p>
+                        <p>By mapping out this experience, we gained insight into user pain points and emotional states, helping us better identify opportunities for intervention and support in the financial literacy space.</p>
+                    </div>
+                
+                    <!-- Journey Map Image -->
+                    <div class="d-flex justify-content-center">
+                        <a href="/images/wealth_wizard/journey-map.png" target="_blank" rel="noopener noreferrer">
+                          <img 
+                            src="/images/wealth_wizard/journey-map.png" 
+                            alt="Journey Map" 
+                            class="img-fluid rounded shadow" 
+                            style="max-height: 100vh; width: auto;">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- WORKFLOW DIAGRAM -->
+
+                <div class="row py-5">
+                    <!-- Text Content -->
+                    <div class="col-md-12 col-lg-6 mx-auto">
+                        <h4 class="text-center">Workflow Diagram</h4>
+                        <p>Building on the journey map, we created a workflow diagram to illustrate the user’s decision-making process. This allowed us to visualize their steps, needs, and moments of friction when managing finances.</p>
+                        <p>The diagram highlights user actions and surfaces pain points that could hinder confidence or clarity—such as uncertainty in choosing tools or knowing where to begin. It also helped us pinpoint opportunities where our solution could step in and provide support at the right time.</p>
+                        <p>This step was essential in shaping a thoughtful, user-informed experience structure for our application.</p>
+                    </div>
+                
+                    <!-- Workflow Diagram Image -->
+                    <div class="d-flex justify-content-center">
+                        <a href="/images/wealth_wizard/workflow-diagram.png" target="_blank" rel="noopener noreferrer">
+                            <img 
+                                src="/images/wealth_wizard/workflow-diagram.png" 
+                                alt="Workflow Diagram" 
+                                class="img-fluid rounded shadow" 
+                                style="max-height: 100vh; width: auto;">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Information Architecture -->
+
+                <div class="row py-5">
+                    <!-- Text Content -->
+                    <div class="col-md-12 col-lg-6 mx-auto">
+                        <h4 class="text-center">Information Architecture</h4>
+                        <p>To support a smooth and intuitive user experience, we developed an information architecture that outlines how content and functionality are structured within the app. This helped us establish a clear, easily digestible hierarchy that guides users through their journey.</p>
+                        <p>By organizing content in a way that reflects user needs and behaviors, we aimed to minimize confusion, reduce cognitive load, and promote confident navigation throughout the platform.</p>
+                        <p>This foundation also served as a blueprint for designing consistent interfaces and seamless interactions across the app.</p>
+                    </div>
+                
+                    <!-- Information Architecture Image -->
+                    <div class="d-flex justify-content-center">
+                        <a href="/images/wealth_wizard/information-architecture.png" target="_blank" rel="noopener noreferrer">
+                            <img 
+                                src="/images/wealth_wizard/information-architecture.png" 
+                                alt="Information Architecture" 
+                                class="img-fluid rounded shadow" 
+                                style="max-height: 110vh; width: auto;">
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- Low-fidelity Wireframe -->
+
+                <div class="row py-5">
+                    <!-- Text Content -->
+                    <div class="col-md-12 col-lg-6 mx-auto">
+                        <h4 class="text-center">Low-fidelity Wireframe</h4>
+                        <p>In response to the key pain points identified during the research phase, we created a low-fidelity wireframe designed to address the primary user concerns:</p>
+                        <ul>
+                            <li><strong>Feeling inconclusive and unfulfilled about information read</strong> – We aimed to provide clear, actionable insights.</li>
+                            <li><strong>Too many options creating uncertainty in choices</strong> – Our wireframe simplifies the decision-making process with fewer, more focused options.</li>
+                            <li><strong>Unsure what to search</strong> – The design includes intuitive navigation and suggestions to guide users effectively.</li>
+                        </ul>
+                        <p>This wireframe serves as the foundation for a solution that aims to reduce confusion and provide clarity for users in need of financial assistance.</p>
+                    </div>
+                
+                    <!-- Wireframe Image -->
+                    <div class="d-flex justify-content-center">
+                        <a href="/images/wealth_wizard/low-fidelity-mockup.png" target="_blank" rel="noopener noreferrer">
+                            <img 
+                                src="/images/wealth_wizard/low-fidelity-mockup.png" 
+                                alt="Low-fidelity Wireframe" 
+                                class="img-fluid rounded shadow" 
+                                style="max-height: 100vh; width: auto;">
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- User Stories -->
+
+
+                <div class="row py-5">
+                    <!-- Text Content -->
+                    <div class="col-md-12 col-lg-6 mx-auto">
+                        <h4 class="text-center">User Stories</h4>
+                        <p>We identified key personas and scenarios that represent the types of users who would benefit from an app like this. The user stories help us understand their needs, motivations, and the pain points they experience when managing their finances.</p>
+                        <p>By creating detailed user stories, we were able to ensure that the app design would cater to the real-world situations users face, providing them with relevant and actionable financial guidance.</p>
+                    </div>
+                
+                    <!-- User Personas Image -->
+                    <div class="d-flex justify-content-center">
+                        <a href="/images/wealth_wizard/personas.png" target="_blank" rel="noopener noreferrer">
+                            <img 
+                                src="/images/wealth_wizard/personas.png" 
+                                alt="User Stories & Personas" 
+                                class="img-fluid rounded shadow" 
+                                style="max-height: 100vh; width: auto;">
+                        </a>
+                    </div>
+                </div>
+
+                <section class="py-5">
+                    <h4 class="text-center mb-4">User Stories Examples</h4>
+                
+                    <div class="row">
+                        <!-- User Story 1: Alex -->
+                        <div class="col-md-3 mb-4">
+                            <div class="p-3 border rounded">
+                                <h5>Alex</h5>
+                                <p><strong>Demographic:</strong> Female, 21, Texas, College Student, $10k a year</p>
+                                <p><strong>Story:</strong> "As a student, I want to have a budgeting app in order to track my spending on textbooks, tuition, and housing while also providing tips for saving money."</p>
+                            </div>
+                        </div>
+                
+                        <!-- User Story 2: Emily -->
+                        <div class="col-md-3 mb-4">
+                            <div class="p-3 border rounded">
+                                <h5>Emily</h5>
+                                <p><strong>Demographic:</strong> Female, 42, Washington, Unemployed, Retired, $0 a year</p>
+                                <p><strong>Story:</strong> "As a person who inherited money from my mom, I want to see how I can reinvest this money or budget it wisely. It was enough money for me to retire, but I want it to last and spend wisely for my future kids."</p>
+                            </div>
+                        </div>
+                
+                        <!-- User Story 3: Ava -->
+                        <div class="col-md-3 mb-4">
+                            <div class="p-3 border rounded">
+                                <h5>Ava</h5>
+                                <p><strong>Demographic:</strong> Female, 21, Florida, College Student, $5k a year</p>
+                                <p><strong>Story:</strong> "As a college student who wants to have a summer vacation, I need to know how to use credit card credits to buy a flight ticket. In order to know the credit information, I need to learn how to improve my credit."</p>
+                            </div>
+                        </div>
+                
+                        <!-- User Story 4: William -->
+                        <div class="col-md-3 mb-4">
+                            <div class="p-3 border rounded">
+                                <h5>William</h5>
+                                <p><strong>Demographic:</strong> Male, 35, Michigan, Doctor, $200k a year</p>
+                                <p><strong>Story:</strong> "As a person who wants to buy a new house, I need a tool that allows me to create a comprehensive estate plan, including wills, trusts, and beneficiary designations."</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                
+                
+
+
+                <!-- Finishing Prototype -->
+
+
+                <div class="row py-5">
+                    <!-- Text Content -->
+                    <div class="col-md-12 col-lg-6 mx-auto">
+                        <h4 class="text-center">Prototype Completion</h4>
+                        <p class="">This is a layout of our final prototype, wireframed in Figma. It represents the finished design, incorporating feedback from earlier testing phases and is ready for further iterations and user testing.</p>
+                    </div>
+                    
+                    <!-- Prototype Image -->
+                    <div class="d-flex justify-content-center">
+                        <a href="/images/wealth_wizard/high_fidelity_prototype.png" target="_blank" rel="noopener noreferrer">
+                            <img 
+                                src="/images/wealth_wizard/high_fidelity_prototype.png" 
+                                alt="Prototype"
+                                class="img-fluid " 
+                                style="max-height: 100vh; width: auto;">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- <iframe src="https://www.figma.com/embed?embed_host=figma&url=YOUR_FIGMA_FILE_URL" 
+                width="800" height="600" allowfullscreen></iframe> -->
+                
+                
+
+                <!-- Interview and Questionnairs -->
+
+                <div class="row py-5">
+                    <!-- Text Content -->
+                    <div class="col-md-12 col-lg-6 mx-auto">
+                        <h4 class="text-center">Interview and Testing</h4>
+                        <p>
+                            In this phase of the design process, we conducted interviews with potential users from a range of financial backgrounds. 
+                            Each team member recruited one participant to evaluate our application and provide feedback. 
+                            We started by asking introductory questions to understand each person's financial background and perspective on financial literacy.*
+                        </p>
+                        <p>
+                            We then guided participants through the application prototype and asked them to complete specific tasks to simulate real use cases. 
+                            Afterward, we gathered qualitative insights on their experience, visual preferences, learning methods, and suggestions for future improvements.
+                        </p>
+                
+                        <h5 class="pt-4">What We Wanted to Learn</h5>
+                        <ul>
+                            <li>How do users respond to the <strong>Resources</strong> page vs the <strong>Lessons</strong> page? Which is more helpful?</li>
+                            <li>Which learning methods are most effective? (Text, Gamification, Models, Pictures)</li>
+                            <li>How would users use the <strong>Chat</strong> feature? (Learning, Q&A, support with specific situations?)</li>
+                            <li>Would users want automatic chat recommendations or follow-up suggestions?</li>
+                            <li>Are there any additional features users wish the app had?</li>
+                        </ul>
+                
+                        <h5 class="pt-4">Interview Script (15 minutes per person)</h5>
+                        <ul>
+                            <li><strong>Introduction:</strong> Briefly explain the purpose – to reduce pain points for people seeking beginner-level financial guidance.</li>
+                            <li><strong>Pre-interview questions:</strong>
+                                <ul>
+                                    <li>Name & Age (and major, if applicable)</li>
+                                    <li>How important is financial literacy to you?</li>
+                                    <li>How confident are you in your financial knowledge?</li>
+                                    <li>If you had financial questions, where would you typically go for answers?</li>
+                                </ul>
+                            </li>
+                            <li><strong>Walkthrough:</strong> Guide the participant through the mockup while noting reactions, comments, or questions.</li>
+                            <li><strong>Task-Based Prompts:</strong>
+                                <ul>
+                                    <li>Set up your profile page.</li>
+                                    <li>Explore a budgeting model and share what lessons you learned.</li>
+                                    <li>Use the chat feature – “What would you ask the chat?” or “What do you wish it could help you with?”</li>
+                                </ul>
+                            </li>
+                            <li><strong>Reflection Questions:</strong>
+                                <ul>
+                                    <li>How do you feel about the look and feel of the app?</li>
+                                    <li>Do you prefer the Resources page or the Lessons page? Why?</li>
+                                    <li>Which learning methods work best for you when it comes to finances?
+                                        <br><em>(Options: reading content, interactive models, visual examples, picture-based content)</em>
+                                    </li>
+                                    <li>Do you have any features or suggestions you wish this app included?</li>
+                                </ul>
+                            </li>
+                            <li><strong>Observation:</strong> Note down any activities or pages the user revisited during testing.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <section class="py-5">
+                    <div class="container">
+                        <h2 class="mb-4 text-center">Interview Notes</h2>
+                
+                        <div class="row">
+                            <!-- Interview - Parth -->
+                            <div class="col-md-6 mb-5">
+                                <h3 class="h5 fw-bold">Interview - Parth</h3>
+                                <p><strong>Participant:</strong> Isaiah</p>
+                                <p><strong>Major:</strong> RTF</p>
+                                <p><strong>Graduation:</strong> Spring 2024</p>
+                                <p><strong>Financial Literacy:</strong> Understands its importance, not confident, relies on Google and websites</p>
+                                <h4 class="fw-semibold mt-3">Primary Notes</h4>
+                                <ul>
+                                    <li>Suggested chat feature should be more prominent and initiate with conversational prompts</li>
+                                    <li>Visual learner; prefers models and images over text-heavy content</li>
+                                    <li>Liked the look and feel, Duolingo-style learning, and wizard persona</li>
+                                    <li>Felt budgeting page had too much text, profile page was “boring but understandable”</li>
+                                    <li>Thinks AI is useful but most users just want a simplified “wizard” experience</li>
+                                </ul>
+                                <h4 class="fw-semibold mt-3">Secondary Notes</h4>
+                                <ul>
+                                    <li>Found navigation intuitive during profile walkthrough</li>
+                                    <li>Suggested simplifying access to the budgeting page</li>
+                                </ul>
+                            </div>
+                
+                            <!-- Interview - Peter Ahloy -->
+                            <div class="col-md-6 mb-5">
+                                <h3 class="h5 fw-bold">Interview - Peter Ahloy</h3>
+                                <p><strong>Participant:</strong> Julia</p>
+                                <p><strong>Age:</strong> 19</p>
+                                <p><strong>Major:</strong> General Studies</p>
+                                <p><strong>Financial Literacy:</strong> Not confident, relies on father for financial help</p>
+                                <ul>
+                                    <li>Overwhelmed by text on intro page; clicked “re-run model” as the only interactive feature</li>
+                                    <li>Found chat feature fun, didn’t like lessons page until she saw gamification element</li>
+                                    <li>Loved the wizard character; requested more color but warned against clutter</li>
+                                    <li>Wanted more topic suggestions from the chat</li>
+                                    <li>Praised the budgeting model as clear and educational</li>
+                                </ul>
+                            </div>
+                        </div>
+                
+                        <div class="row">
+                            <!-- Interview - Hui Feng -->
+                            <div class="col-md-6 mb-5">
+                                <h3 class="h5 fw-bold">Interview - Hui Feng</h3>
+                                <p><strong>Participant:</strong> Mie</p>
+                                <p><strong>Age:</strong> 23</p>
+                                <p><strong>Major:</strong> Philosophy</p>
+                                <p><strong>Financial Literacy:</strong> Low confidence and low importance, prefers advice from banks</p>
+                                <ul>
+                                    <li>Suggested light/dark mode and color customization</li>
+                                    <li>Felt the profile page is too hidden at the bottom</li>
+                                    <li>Prefers resource page over lessons, felt she’d never use the lessons</li>
+                                    <li>Wants ability to bookmark or receive a “receipt” of AI chats</li>
+                                    <li>Visual learner, prefers example- and picture-based content</li>
+                                </ul>
+                            </div>
+                
+                            <!-- Interview - Truc Tran -->
+                            <div class="col-md-6 mb-5">
+                                <h3 class="h5 fw-bold">Interview - Truc Tran</h3>
+                                <p><strong>Participant:</strong> Truong</p>
+                                <p><strong>Age:</strong> 38</p>
+                                <p><strong>Major:</strong> Computer Science</p>
+                                <p><strong>Financial Literacy:</strong> Confident in some areas, learns from Google Finance</p>
+                                <ul>
+                                    <li>Profile page should be accessible via dropdown, not fixed at bottom</li>
+                                    <li>Wants income input options (hourly, monthly, yearly)</li>
+                                    <li>Suggested removing pagination and filters from resource cards</li>
+                                    <li>Wants categories on lesson page (Budgeting, Saving, Debt, etc.)</li>
+                                    <li>Sliders on budget model felt imprecise; suggested text input alternative</li>
+                                    <li>Recommended login page and subtle reminders to update profile later</li>
+                                </ul>
+                            </div>
+                        </div>
+                
+                        <div class="row">
+                            <!-- Interview - Grace -->
+                            <div class="col-md-6 mb-5">
+                                <h3 class="h5 fw-bold">Interview - Grace</h3>
+                                <p><strong>Participant:</strong> John</p>
+                                <p><strong>Age:</strong> 20</p>
+                                <p><strong>Major:</strong> Biology</p>
+                                <p><strong>Financial Literacy:</strong> 7/10 confidence, 10/10 importance</p>
+                                <p><strong>Where They Seek Help:</strong> Google</p>
+                
+                                <h4 class="fw-semibold mt-3">Task Feedback</h4>
+                                <ul>
+                                    <li><strong>Profile Setup:</strong> Completed easily, navigation was clear</li>
+                                    <li><strong>Budgeting Model:</strong> Found navigation slightly confusing, but model was intuitive</li>
+                                    <li><strong>Chat Feature:</strong> Easy to use, wants topic suggestions within chat</li>
+                                </ul>
+                
+                                <h4 class="fw-semibold mt-3">Additional Insights</h4>
+                                <ul>
+                                    <li>Loved the app’s design and minimal clutter</li>
+                                    <li>Believes different users benefit from either lessons or resources depending on their background</li>
+                                    <li>Enjoys learning by playing with models</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+
+                  <section class="py-5">
+                    <h4 class="text-center mb-4">Interview Summaries</h4>
+                
+                    <div class="row">
+                        <!-- Interview - Isaiah -->
+                        <div class="col-md-3 mb-4">
+                            <div class="p-3 border rounded">
+                                <h5>Interview - Isaiah</h5>
+                                <p><strong>Demographic:</strong> Male, RTF Major</p>
+                                <p><strong>Financial Literacy:</strong> Understands its importance, but not confident</p>
+                                <p><strong>Learning Approach:</strong> Relies on Google and websites/emails for answers</p>
+                                <p><strong>AI Knowledge:</strong> Very interested and knowledgeable about AI usage</p>
+                            </div>
+                        </div>
+                
+                        <!-- Interview - Julia -->
+                        <div class="col-md-3 mb-4">
+                            <div class="p-3 border rounded">
+                                <h5>Interview - Julia</h5>
+                                <p><strong>Demographic:</strong> Female, 19, General Studies</p>
+                                <p><strong>Financial Literacy:</strong> Thinks it's important but lacks confidence</p>
+                                <p><strong>Support System:</strong> Relies on parents, especially her father, for financial advice</p>
+                                <p><strong>Goals:</strong> Wants to improve budgeting and avoid overspending</p>
+                            </div>
+                        </div>
+                
+                        <!-- Interview - Mie -->
+                        <div class="col-md-3 mb-4">
+                            <div class="p-3 border rounded">
+                                <h5>Interview - Mie</h5>
+                                <p><strong>Demographic:</strong> Female, 23, Philosophy</p>
+                                <p><strong>Financial Literacy:</strong> Doesn’t think it's important, lacks confidence</p>
+                                <p><strong>Support System:</strong> Relies on parents and banks for advice</p>
+                                <p><strong>Goals:</strong> Wants to learn how to be financially responsible when independent</p>
+                            </div>
+                        </div>
+                
+                        <!-- Interview - Truong -->
+                        <div class="col-md-3 mb-4">
+                            <div class="p-3 border rounded">
+                                <h5>Interview - Truong</h5>
+                                <p><strong>Demographic:</strong> Male, 38, Computer Science</p>
+                                <p><strong>Financial Literacy:</strong> Confident and considers it important</p>
+                                <p><strong>Focus Areas:</strong> Budgeting for bills, saving, and investing</p>
+                                <p><strong>Learning Approach:</strong> Uses Google Finance for financial questions</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="row">
+                        <!-- Interview - John -->
+                        <div class="col-md-3 mb-4">
+                            <div class="p-3 border rounded">
+                                <h5>Interview - John</h5>
+                                <p><strong>Demographic:</strong> Male, 20, Biology</p>
+                                <p><strong>Importance of Financial Literacy:</strong> 10/10 – believes it’s key to success</p>
+                                <p><strong>Confidence Level:</strong> 7/10</p>
+                                <p><strong>Knowledge Level:</strong> 6/10 – knows about credit, stocks, and investing</p>
+                                <p><strong>Learning Approach:</strong> Searches on Google for answers</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+                
+                  
+                  
+                
+                
+                
+
+
+                <div class="row py-5">
+                    <!-- Text Content -->
+                    <div class="col-md-12 col-lg-6 mx-auto">
+                        <h4 class="text-center">Revisiting What We Wanted To Learn</h4>
+                        
+                        <div class="py-3">
+                            <h5>Resources vs Lesson Page</h5>
+                            <p>How do people respond to the resources page vs. the lesson page? Which page is more useful?</p>
+                            <ul>
+                                <li>The model was the highest success with two ways of getting there.</li>
+                                <li>Users gravitate towards the lesson page, but having a reference is still important.</li>
+                            </ul>
+                        </div>
+                
+                        <div class="py-3">
+                            <h5>Effective Learning Methods</h5>
+                            <p>Which learning methods are most effective? (Text, Gamify, Model, Picture)</p>
+                            <ul>
+                                <li>Emphasizing the model is our top priority.</li>
+                                <li>The “Duolingo” aspect helped in mapping out a journey from start to finish and made learning less intimidating.</li>
+                            </ul>
+                        </div>
+                
+                        <div class="py-3">
+                            <h5>Chat Feature Usage</h5>
+                            <p>How would users use the chat feature? (and why?)</p>
+                            <ul>
+                                <li>Most users stated they would use it for questions specific to their scenarios.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                
+
+
+                <h2 class="text-center">Testing Feedback</h2>
+
+                <div class="row py-5 justify-content-center">
+                    <div class="col-md-6 mx-auto">
+                        <h4 class="text-center">What We Learned About Users</h4>
+                        <p>Users found the app and AI approach interesting and potentially helpful.</p>
+                        <p>They are willing to learn if the information is presented well, as confirmed by their curiosity and follow-up questions.</p>
+                
+                        <h4 class="text-center">Feedback</h4>
+                
+                        <h5 class="mt-4">Pros</h5>
+                        <ul>
+                            <li>The budgeting model was interactive and fun to use.</li>
+                            <li>The UI was clean and uncluttered—users liked the branding and iconography (Wizard).</li>
+                            <li>The name and character were unique and stood out.</li>
+                            <li>Users found it simple to understand and navigate.</li>
+                        </ul>
+                
+                        <h5 class="mt-4">Improvements</h5>
+                        <ul>
+                            <li><strong>General:</strong> The app should have fewer boxes to avoid overwhelming new users. Removing pagination from the resources page can help.</li>
+                            <li><strong>Resources Page:</strong> Should be moved under the Lessons page for better navigation. 4-6 resource items are sufficient—pagination, sorting, and filtering may not be necessary.</li>
+                            <li><strong>Chat Feature:</strong> Users wanted predefined options to choose from within the chatbox.</li>
+                            <li><strong>Budgeting Feature:</strong> Sliders were imprecise; users requested an additional text field for entering exact amounts. Income estimation should include options like $/hour, $/month, and $/year.</li>
+                            <li><strong>Navigation:</strong> The order of pages should be adjusted—Profile should not be at the bottom but included in a user dropdown menu.</li>
+                            <li><strong>Lessons Page:</strong> Needs a clear indication or prompt explaining its purpose and content.</li>
+                            <li><strong>Chatbot:</strong> Should provide visible options and resources for users, as some interviewees didn’t fully experience its potential in the wireframe.</li>
+                            <li><strong>Home Page:</strong> A login page with email/password should be included. Users suggested an icon reminding them to update their profile later since some just want information without setting up a profile.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row py-5">
+                    <div class="col-md-6 mx-auto">
+                        <h4 class="text-center">Continuation</h4>
+                
+                        <h5 class="mt-4">Things We Would Want to Change & Refine</h5>
+                        <ul>
+                            <li><strong>ChatBox:</strong> Implement a receipt or bookmark feature for messages.</li>
+                            <li><strong>Theme Color:</strong> Introduce both Dark and Light mode options, as well as additional color customization.</li>
+                            <li><strong>Bookmark Feature:</strong> Allow users to bookmark conversations (potential AI enhancements).</li>
+                            <li><strong>More Examples:</strong> Expand the mockup with additional use cases and examples.</li>
+                            <li><strong>Content Refinement:</strong> Reduce wordiness and present information in a more concise, effective manner.</li>
+                            <li><strong>Learning Support:</strong> Provide more real-world examples to aid user understanding.</li>
+                        </ul>
+                
+                        <h5 class="mt-4">Things We Would Continue to Research</h5>
+                        <ul>
+                            <li><strong>Resources Page:</strong> Determine if users prefer more examples or image-based content.</li>
+                            <li><strong>Lesson Page:</strong> Identify which lesson types are most useful and which six key topics should be emphasized.</li>
+                            <li><strong>User Overload:</strong> Ensure lessons are informative but not overwhelming for users.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- <div class="row py-5 justify-content-center">
+
+                    <div class="col-md-6">
+                        <h4 class="text-center">Outcomes from Prototyping and User Testing</h4>
+                        <div class="py-2">
+                            <p><strong>Enhanced Understanding of User Needs</strong></p>
+                            <ul>
+                                <li><strong>Lesson Page Preference:</strong> Users preferred the Lesson Page, but having resources as references remained crucial. This helped prioritize content structure in the final design.</li>
+                                <li><strong>Content Accessibility:</strong> Feedback emphasized the need for an intuitive balance between lessons and reference materials to optimize learning flow.</li>
+                            </ul>
+                
+                            <p><strong>Refined Learning Methods</strong></p>
+                            <ul>
+                                <li><strong>Interactive Learning Emphasis:</strong> Users found interactive models, like the "Duolingo" style, the most engaging, leading to a focus on gamified elements.</li>
+                                <li><strong>Reduction of Intimidation:</strong> Breaking down complex financial concepts into small, digestible steps reduced user anxiety and improved engagement.</li>
+                            </ul>
+                
+                            <p><strong>Improved Chat Feature Design</strong></p>
+                            <ul>
+                                <li><strong>Scenario-Based Use:</strong> Users favored using the chat feature for scenario-based questions, guiding the design towards personalized learning support.</li>
+                                <li><strong>Improved Conversational Flow:</strong> Feedback led to updates in the chatbot’s conversation design to better match user needs for learning and support.</li>
+                            </ul>
+                
+                            <p><strong>Refined Content and Layout for Clarity</strong></p>
+                            <ul>
+                                <li><strong>Streamlined Information:</strong> Based on user feedback, content was simplified and organized into clearer visual hierarchies to improve readability.</li>
+                                <li><strong>Better Visual Hierarchy:</strong> Ensuring key information was easily accessible helped reduce cognitive load for users.</li>
+                            </ul>
+                
+                            <p><strong>Feature Prioritization</strong></p>
+                            <ul>
+                                <li><strong>Focus on Core Features:</strong> User feedback revealed the need to prioritize interactive models and lessons, leading to more resources dedicated to refining these areas.</li>
+                                <li><strong>Feature Scalability:</strong> Future features, like personalized learning paths, were identified as key areas for growth in the next iteration of the app.</li>
+                            </ul>
+                
+                            <p><strong>Informed Design Decisions for Future Iterations</strong></p>
+                            <ul>
+                                <li><strong>Data-Driven Roadmap:</strong> The user insights formed the foundation for future design iterations, helping to guide ongoing development priorities.</li>
+                                <li><strong>Iterative Improvement:</strong> Data from testing shaped our understanding of what worked well and where further refinement was necessary.</li>
+                            </ul>
+                
+                            <p><strong>Strengthened Confidence in the Product's Viability</strong></p>
+                            <ul>
+                                <li><strong>Positive User Reception:</strong> The success of key features like interactive models and the chat feature confirmed the product’s potential in the financial literacy space.</li>
+                                <li><strong>Clear User Benefit:</strong> Testing validated the core value proposition of the app, making it easier to justify its further development.</li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                </div> -->
+                
+
+                <div class="row py-5">
+                    <div class="col-md-6 mx-auto">
+                        <h4 class="text-center">Looking Back & Launch</h4>
+                
+                        <h5 class="mt-4">What Are Our Priorities?</h5>
+                        <ol>
+                            <li><strong>AI Integration:</strong> The main improvement is personalization through AI, making the learning experience more tailored to each user.</li>
+                            <li><strong>Optimized Lesson Delivery:</strong> Present the first six topics in the best way possible, seamlessly integrated with the chat feature.</li>
+                            <li><strong>Expanded Learning:</strong> Develop a second page with more advanced lessons to support continued learning.</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="row py-5 justify-content-center">
+
+                    <div class="col-md-6 ">
+                        <h4 class="text-center">Key Takeaways from Working with a Group on Figma Prototype</h4>
+                        <div class="py-2">
+                            <p><strong>Collaboration & Communication</strong></p>
+                            <ul>
+                                <li><strong>Clear Role Definition:</strong> Assigning specific responsibilities (e.g., UI design, research, content) helps streamline workflow.</li>
+                                <li><strong>Version Control & Feedback Loops:</strong> Using comments and Figma’s version history prevents overwriting work and helps track design iterations.</li>
+                                <li><strong>Efficient Communication:</strong> Regular check-ins via Slack, meetings, or Figma comments help align team goals.</li>
+                            </ul>
+                
+                            <p><strong>User-Centered Design</strong></p>
+                            <ul>
+                                <li><strong>Iterative Testing is Essential:</strong> User feedback drives refinements, and small adjustments can greatly improve usability.</li>
+                                <li><strong>Balancing Aesthetics & Functionality:</strong> A clean UI must still guide users effectively—avoiding clutter while ensuring clarity.</li>
+                                <li><strong>Personalization Through AI:</strong> Users appreciate when AI features enhance, rather than replace, human decision-making.</li>
+                            </ul>
+                
+                            <p><strong>Technical & Design Considerations</strong></p>
+                            <ul>
+                                <li><strong>Consistency Matters:</strong> Maintaining a cohesive design system (buttons, fonts, spacing) ensures a professional look.</li>
+                                <li><strong>Interactive Prototypes Aid Understanding:</strong> Clickable elements help stakeholders and users better visualize functionality.</li>
+                            </ul>
+                
+                            <p><strong>Project Management & Flexibility</strong></p>
+                            <ul>
+                                <li><strong>Scope Management is Crucial:</strong> Prioritizing core features prevents unnecessary complexity, especially in early versions.</li>
+                                <li><strong>Adapting to Feedback:</strong> Some ideas may not work as expected—being open to change leads to better outcomes.</li>
+                                <li><strong>Time Management is Everything:</strong> Balancing quality with deadlines ensures steady progress.</li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                </div>
+
+                <div class="row py-5 justify-content-center">
+                    <div class="col-md-6">
+                      <h4 class="text-center">Outcomes from Prototyping & User Testing</h4>
+                      <div class="py-2">
+                        <p><strong>User-Centered Design Validation</strong></p>
+                        <ul>
+                          <li><strong>Lesson Page Preference:</strong> Testing revealed user preference for the Lesson Page, guiding content hierarchy and layout choices.</li>
+                          <li><strong>Content Accessibility:</strong> Feedback highlighted the need to balance structured lessons with on-demand resource materials to support different learning styles.</li>
+                        </ul>
+                  
+                        <p><strong>Optimizing Learning Experience</strong></p>
+                        <ul>
+                          <li><strong>Gamified & Visual Learning:</strong> Interactive models and “Duolingo-style” flows emerged as highly engaging, reducing user intimidation and supporting gradual learning.</li>
+                          <li><strong>Digestible Content:</strong> Simplifying complex topics into smaller steps increased engagement and lowered the barrier to entry for users with low financial literacy.</li>
+                        </ul>
+                  
+                        <p><strong>Feature Iteration through Testing</strong></p>
+                        <ul>
+                          <li><strong>Scenario-Based Chat:</strong> Participants expressed a desire to use the chat feature for personalized, situation-specific help, informing a more contextual chatbot experience.</li>
+                          <li><strong>Conversational Design Refinement:</strong> Insights from testing led to adjustments in chatbot tone and flow to better mirror user expectations and needs.</li>
+                        </ul>
+                  
+                        <p><strong>Refinement of Information Architecture</strong></p>
+                        <ul>
+                          <li><strong>Streamlined Visual Hierarchy:</strong> User feedback prompted reorganization of content and clearer labeling to improve readability and reduce friction.</li>
+                          <li><strong>Less Cognitive Load:</strong> Emphasizing clarity and spacing helped users better navigate the prototype without feeling overwhelmed.</li>
+                        </ul>
+                  
+                        <p><strong>Strategic Feature Prioritization</strong></p>
+                        <ul>
+                          <li><strong>Focus on MVP Elements:</strong> Based on user feedback, core features like the interactive model and lessons were prioritized for refinement.</li>
+                          <li><strong>Scalability Planning:</strong> User suggestions helped identify future features, such as personalized learning paths and proactive chat prompts.</li>
+                        </ul>
+                  
+                        <p><strong>Foundations for Future Design Iterations</strong></p>
+                        <ul>
+                          <li><strong>Data-Informed Design:</strong> Testing insights shaped our product roadmap, grounding design decisions in real user behavior and expectations.</li>
+                          <li><strong>Validation of Concept:</strong> Positive reception to key features provided confidence in the product’s potential and alignment with user needs.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  
+                
+                
+                
+                
+
+                    
+                    
+                    
+                    
+
+                    
+                    
+                        
+                    
+                </div>
+
+
+
+
+     <!-- Footer -->
+     <footer class="footer">
+        <div class="text-center">
+            <p>Designed and Developed by Peter Ahloy, 2025</p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    
+    <!-- Bootstrap JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src = "js/scripts.js"></script>
+</body>
+</html>
