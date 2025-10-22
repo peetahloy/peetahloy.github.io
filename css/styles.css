@@ -3,7 +3,13 @@ body {
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
-
+/* Card Grid */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+}
 /* Card styling */
 .card {
     position: relative;
@@ -11,6 +17,7 @@ body {
     aspect-ratio: 3 / 4; /* Maintain 3:4 aspect ratio */
     width: 100%; /* Full width of its container */
     display: flex;
+    margin: 0 auto;
     align-items: center;
     justify-content: center;
     color: white; /* Default text color (if added later) */
@@ -234,6 +241,21 @@ h3, h1 {
   }
   
 
+  .design-heading {
+    display: flex;
+    align-items: center;
+}
+
+.design-heading h1 {
+    font-size: 2rem; /* adjust as needed */
+    margin: 0;
+}
+
+.design-heading .line {
+    height: 2px; /* thickness of the line */
+    background-color: black; /* line color */
+    flex-grow: 1; /* take up remaining space */
+}
 
   
   
